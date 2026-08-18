@@ -21,10 +21,10 @@ Before running the agent, you will need:
 Follow these steps to run the research agent locally:
 1. Clone the repository:
   git clone
-  https://github.com/YashwanthYS2004/composio-api-research.gitcd composio-api-research
+  "https://github.com/YashwanthYS2004/composio-api-research.gitcd composio-api-research"
 2. Install the required Python packages:
   bash
-  pip install langchain langchain-openai langchain-community tavily-python
+  "pip install langchain langchain-openai langchain-community tavily-python"
 3. Add your API Keys:
   Open the agent.py file in your preferred text editor and replace the placeholder strings with your actual API keys:
 
@@ -35,7 +35,7 @@ Follow these steps to run the research agent locally:
 **Running the Agent**
 Once the setup is complete, execute the script from your terminal:
   bash
-  python agent.py
+  "python agent.py"
 
 **What to expect:**
 --->The terminal will display the agent's thought process as it searches the web and reasons through the documentation for each app.
